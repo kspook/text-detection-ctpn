@@ -72,7 +72,7 @@ nclass = len(alphabet)+1
 
 '''
 
-import  ibm_src.tools.classify_hangul as ibm
+import  rec_char.tools.classify_hangul as rchar
 import  cropping as crp 
 
 

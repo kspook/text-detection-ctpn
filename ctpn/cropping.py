@@ -20,7 +20,7 @@ from lib.text_connector.text_connect_cfg import Config as TextLineCfg
 from lib.rpn_msr.proposal_layer_tf import proposal_layer
 from PIL import Image 
 
-import ibm_src.tools.classify_hangul as ibm
+import rec_char.tools.classify_hangul as rchar
 from scipy import ndimage
 
 
@@ -146,7 +146,7 @@ def crop_word(i, nm_cropped_image):
                                         print("saved nm_cropped_image"+nm_cropped_image+str(i)+"_/"+"_"+str(shift_x)+"_"+str(shift_y)+".png")
 
                                         #classify(
-                                        ibm.classify (nm_cropped_image+str(i)+"_/"+str(shift_x)+"_"+str(shift_y)+".png")
+                                        rchar.classify (nm_cropped_image+str(i)+"_/"+str(shift_x)+"_"+str(shift_y)+".png")
 
 
 
