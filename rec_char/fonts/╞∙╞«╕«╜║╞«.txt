@@ -1,0 +1,38 @@
+﻿
+1.	dovemayo.otf		둘기마요체
+2.	hans%20punch.ttf		HanS 캘리그라피펀치
+3.	drfont_daraehand_Basic.ttf		다래손글씨체
+4.	HanS Calli.ttf  		Hans캘리그라피
+5.	SSYoungestDaughter.ttf	꽃집막내딸 1.0
+6.	SangSangShin.otf		신과장체
+7.	KCC-eunyoung.ttf		은영체
+8.	Windy Lavender.ttf		윈디라벤더
+9.	Typo_PapyrusM.ttf		타이포파피루스M
+10. SangSangAnt.otf		개미똥구멍
+11.	THELeft.ttf		THE개미왼손잡이폰트
+12.	THE_HongChawangjanemo.ttf		홍차왕자네모
+13.	HoonWhayangyunwha.ttf		훈화양연화
+14.	Makgeolli.ttf		포천막걸리체
+15.	NanumPen.ttf		나눔손글씨펜
+16. DXRMbxB-KSCpc-EUC-H.ttf		DX빨간우체통Bold
+17. SSShinb7.ttf		신비는 일곱살
+18. DXPnM-KSCpc-EUC-H.ttf   DX시인과나Regular
+19. HoonWhitecatR.ttf       훈하얀고양이
+20. HoonSlimskinnyL.ttf		훈슬림스키니
+21. DXSeNB-KSCpc-EUC-H.ttf	dx새날bold
+22. THE_Oegyeinseolmyeongseo.ttf  THE외계인설명서
+
+16개 13,312 이미지 
+Number of training examples: 11,316
+Number of testing examples: 1,996
+정확도 91.3%      시간  epoch 6000
+
+22개  17,408 
+Number of training examples: 14,797 
+Number of testing examples:  2,611
+정확도 86.9%      4시간   step 5000
+정확도 91.6%      7시간   step 7000
+정확도 93.3%      10시간  step 9000
+2.gpu 6vcpu, 56GB 메모리 
+     93.8%      2.5시간    11000
+     97.3%      6         30000
