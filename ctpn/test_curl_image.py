@@ -23,16 +23,18 @@ image = r"/home/kspook/text-detection-ctpn/data/demo/006.jpg"
 
     image_string = tf.reshape(jpegs, shape=[])
 '''
+'''
 image = cv2.imread("/home/kspook/text-detection-ctpn/data/demo/006.jpg", cv2.IMREAD_COLOR)
 image = image.astype(np.float32) / 255
 image = image.tolist()
+'''
 URL="http://localhost:9001/v1/models/ctpn:predict" 
 #URL = "http://{HOST:port}/v1/models/<modelname>/versions/1:classify" 
 headers = {"content-type": "application/json"}
-#image_content = base64.b64encode(open(image,'rb').read()).decode("utf-8")
+image_content = base64.b64encode(open(image,'rb').read()).decode("utf-8")
 body = {
     #"signature_name": "ctpn_recs_predict",
-    "signature_name": "ctpn_image_predict",
+    "signature_name": "predict_images_post",
     "inputs": [
        	      image
        	      #{"image": { "b64": image }}
